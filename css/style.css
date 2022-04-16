@@ -1,21 +1,18 @@
 @font-face {
-  font-family: "The-Castle-Elizah-Italic";
-  src: url(../fonts/thecastle/) format('woff'),
-      url(../fonts/thecastle/2) format('woff2'),
-      url(../fonts/thecastle/The-Castle-Elizah-Italic.svg) format('svg'),
-      url(../fonts/thecastle/The-Castle-Elizah-Italic.eot),
-      url(../fonts/thecastle/The-Castle-Elizah-Italic.ttf) format('truetype');
-
+  font-family: 'GrandSlang-Roman';
+  src: url('GrandSlang-Roman.eot');
+  src: url('GrandSlang-Roman.eot?#iefix') format('embedded-opentype'),
+       url('GrandSlang-Roman.svg#GrandSlang-Roman') format('svg'),
+       url('GrandSlang-Roman.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "The-Castle-Elizah-Italic";
+  font-family: 'GrandSlang-Roman';
 
 }
 *::before, *::after{
@@ -256,4 +253,17 @@ ul li .audio-duration{
 ul li.playing{
   pointer-events: none;
   color: var(--violet);
+}
+
+
+@media (max-width:480px){
+  
+  .wrapper {
+    width: 100%;
+    height: 100vh;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

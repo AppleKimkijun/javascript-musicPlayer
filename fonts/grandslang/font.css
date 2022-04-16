@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'GrandSlang-Roman';
+  src: url('GrandSlang-Roman.eot');
+  src: url('GrandSlang-Roman.eot?#iefix') format('embedded-opentype'),
+       url('GrandSlang-Roman.svg#GrandSlang-Roman') format('svg'),
+       url('GrandSlang-Roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
